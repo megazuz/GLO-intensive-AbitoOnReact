@@ -71,7 +71,7 @@ body {
 
 .search-box {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: rgb(37, 110, 235);
     padding: 3px;
     display: flex;
@@ -79,6 +79,7 @@ body {
 
 .search-box input {
     flex-grow: 1;
+    margin: 1px;
     padding: 14px 20px;
     border-radius: 5px;
     outline: none;
@@ -86,18 +87,18 @@ body {
     min-width: 0;
 }
 
-.btn-search {
+.search-btn {
     display: flex;
     align-items: center;
 }
 
-.btn-search img {
+.search-btn img {
     width: 15px;
     height: 15px;
 }
 
-.btn-search span {
-    margin-left: 2px;
+.search-btn span {
+    margin-left: 4px;
     font-size: 16px;
     line-height: 19px;
     color: white;
@@ -108,6 +109,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    padding-bottom: 50px;
 }
 
 .content-main {
@@ -122,7 +124,9 @@ body {
 .content-main__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    column-gap: 30px;
+    row-gap: 50px;
 }
 
 .content-main__list-item {
@@ -132,7 +136,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     color: black;
-    padding-bottom: 50px;
 }
 
 .content-main__list-item:hover .content-main__list-item--title {
@@ -221,7 +224,6 @@ body {
     display: flex;
     flex-grow: 1;
     gap: 30px;
-    padding-bottom: 50px;
 }
 
 .content-product-left {
@@ -251,9 +253,11 @@ body {
     margin-bottom: 25px;
 }
 
-.btn-content-product {
+.content-product-btn {
     width: 264px;
     height: 54px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
 @media (max-width: 1200px) {
