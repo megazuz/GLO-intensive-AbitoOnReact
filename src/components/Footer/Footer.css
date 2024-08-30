@@ -1,0 +1,13 @@
+.content-side__footer-title {
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.content-side__footer-item {
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+}

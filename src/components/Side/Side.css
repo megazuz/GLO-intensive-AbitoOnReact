@@ -1,0 +1,25 @@
+.content-side {
+  min-width: 231px;
+  max-width: 231px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-side-title {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.content-side-list {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .content-side {
+    width: auto;
+  }
+}

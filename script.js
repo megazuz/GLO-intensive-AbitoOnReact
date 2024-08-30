@@ -9,7 +9,7 @@ const cardArray = [
     price: '970 ₽',
     address: 'Казань, р-н Вахитовский',
     date: '10 июля 11:39',
-    image: './images/card_image.png',
+    image: './public/images/card_image.png',
   },
   {
     id: 1,
@@ -17,7 +17,7 @@ const cardArray = [
     price: '770 ₽',
     address: 'Казань, р-н Вахитовский',
     date: '10 июля 11:39',
-    image: './images/card_image.png',
+    image: './public/images/card_image.png',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const cardArray = [
     price: '570 ₽',
     address: 'Казань, р-н Вахитовский',
     date: '10 июля 11:39',
-    image: './images/card_image.png',
+    image: './public/images/card_image.png',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const cardArray = [
     price: '370 ₽',
     address: 'Казань, р-н Вахитовский',
     date: '10 июля 11:39',
-    image: './images/card_image.png',
+    image: './public/images/card_image.png',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const cardArray = [
     price: '270 ₽',
     address: 'Казань, р-н Вахитовский',
     date: '10 июля 11:39',
-    image: './images/card_image.png',
+    image: './public/images/card_image.png',
   },
   {
     id: 5,
@@ -49,13 +49,13 @@ const cardArray = [
     price: '170 ₽',
     address: 'Казань, р-н Вахитовский',
     date: '10 июля 11:39',
-    image: './images/card_image.png',
+    image: './public/images/card_image.png',
   },
 ];
 
 const render = (cardList) => {
   cardWrapper.innerHTML = '';
-  cardList.forEach((item, idx) => {
+  cardList.forEach((item) => {
     cardWrapper.insertAdjacentHTML(
       'beforeend',
       `

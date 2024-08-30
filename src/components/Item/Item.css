@@ -1,0 +1,15 @@
+.content-side-item-title {
+  display: flex;
+  align-items: center;
+}
+
+.content-side-item-title span {
+  font-weight: 700;
+  padding-left: 10px;
+  line-height: 16px;
+}
+
+.content-side-item span {
+  font-size: 14px;
+  line-height: 14px;
+}
